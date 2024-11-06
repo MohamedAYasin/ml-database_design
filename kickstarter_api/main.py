@@ -32,6 +32,11 @@ def serialize_project(project):
     project['_id'] = str(project['_id'])
     return project
 
+# Root endpoint with welcome message
+@app.get("/")
+async def root():
+    return "Welcome to the Kickstarter Projects API. Use /docs endpoints to interact with the database."
+
 # Create CRUD endpoints
 @app.post("/projects/")
 async def create_project(project: Project):
