@@ -6,7 +6,7 @@
 ## 🧩 Project Overview
 This project dives into the world of Kickstarter campaigns, analyzing and predicting project outcomes. Our team of four approached this as an end-to-end data solution: we structured the data, built a robust API, and integrated machine learning for predictive insights. Together, we’ve created a system that can store, manage, and utilize Kickstarter data to shed light on the factors that drive successful crowdfunding campaigns.
 
-## 🎯 Problem Statement
+## 🎯 KIck-starter
 Kickstarter projects range from viral successes to under-the-radar initiatives. We aimed to develop a comprehensive system that could:
 1. Efficiently store and manage Kickstarter data.
 2. Provide dynamic API access for CRUD operations.
