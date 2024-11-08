@@ -109,4 +109,4 @@ Thank you for being here! ❤️🙏
 
 
 
- -----------------         ©2024 The African Leadership University (ALU)      ---------------------------------
+ -----------------         `©2024 The African Leadership University (ALU)`      ---------------------------------
