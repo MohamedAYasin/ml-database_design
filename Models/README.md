@@ -1,6 +1,6 @@
 # DATA FETCHING AND PREDICTION!
 
-![ROBOTOS](https://github.com/user-attachments/assets/232672d7-81d1-4e01-98dc-d3c1f51bfbe5)
+![DARATS](https://github.com/user-attachments/assets/2042e540-0b58-4d85-a9f8-5db659944ee8)
 
 
 # This Repository contains the following folders:
