@@ -52,12 +52,15 @@ Here’s a list of the available endpoints:
        "state": "successful"
      }
      ```
-
-2. **Get a Project by ID**
+2. **Get/Fetch the latest entry**
+   - **Method**: `GET`
+   - **URL**: `/projects/latest`
+     
+3. **Get a Project by ID**
    - **Method**: `GET`
    - **URL**: `/projects/{project_id}`
 
-3. **Update a Project**
+4. **Update a Project**
    - **Method**: `PUT`
    - **URL**: `/projects/{project_id}`
    - **Request Body**:
@@ -71,15 +74,15 @@ Here’s a list of the available endpoints:
      }
      ```
 
-4. **Delete a Project**
+5. **Delete a Project**
    - **Method**: `DELETE`
    - **URL**: `/projects/{project_id}`
 
 ---
 
-## 🌐 Deployment
+## 🌐 Deployment 
 
-This API is deployed on **Render**. Access the live API at:  [https://kickstarter-api.onrender.com]( https://kickstarter-api.onrender.com)
+This API is deployed on **Render**. Access the live API at:  [https://kickstarter-api.onrender.com](https://kickstarter-api-3z5m.onrender.com)
 
 ---
 
