@@ -3,7 +3,7 @@
 ![DARATS](https://github.com/user-attachments/assets/2042e540-0b58-4d85-a9f8-5db659944ee8)
 
 
-# This Repository contains the following folders:
+# This Repository contains the following items:
 - [Fetch-data](https://github.com/fmhirwa/ml-database_design/blob/main/Models/fetch-data.py)
 - [Kickstart_Prediction](https://github.com/fmhirwa/ml-database_design/blob/main/Models/kickstart_prediction.ipynb)
 - [Kickstart Model PKL](https://github.com/fmhirwa/ml-database_design/blob/main/Models/kickstarter_model.pkl)
