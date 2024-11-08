@@ -83,7 +83,7 @@ Kickstarter projects range from viral successes to under-the-radar initiatives. 
 - Prediction pipeline that connects the model to the API.
 - Performance analysis and documentation on model accuracy and usability.
 
-**`https://kickstarter-api-3z5m.onrender.com/project/latest`**
+**`https://kickstarter-api-3z5m.onrender.com/projects/latest`**
 
 ## 💡 Key Learnings
 Our team gained invaluable experience in the full data pipeline, from raw data structuring to live API deployments and predictive modeling. Key takeaways include:
