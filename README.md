@@ -60,6 +60,8 @@ Kickstarter projects range from viral successes to under-the-radar initiatives. 
   - `DELETE` for removals
 - Focused on user-friendly error handling and comprehensive documentation to guide users.
 
+  API LINK: **`https://kickstarter-api-3z5m.onrender.com`**
+
 **Deliverables:**
 - Fully functional API with Swagger documentation.
 - CRUD endpoints with validation and error handling.
@@ -77,9 +79,11 @@ Kickstarter projects range from viral successes to under-the-radar initiatives. 
 - Integrated prediction capabilities into the API, providing real-time project outcome forecasts.
 
 **Deliverables:**
-- Data-fetching script to keep predictions up-to-date.
+- Data-fetching script to keep predictions up-to-date. 
 - Prediction pipeline that connects the model to the API.
 - Performance analysis and documentation on model accuracy and usability.
+
+**`https://kickstarter-api-3z5m.onrender.com/project/latest`**
 
 ## 💡 Key Learnings
 Our team gained invaluable experience in the full data pipeline, from raw data structuring to live API deployments and predictive modeling. Key takeaways include:
