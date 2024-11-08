@@ -1,6 +1,6 @@
 # DATA FETCHING AND PREDICTION!
 
-![ai-robot-wallpaper-processing](https://github.com/user-attachments/assets/14b3946d-1425-4cd2-b226-2484c570177d)
+![ROBOTOS](https://github.com/user-attachments/assets/232672d7-81d1-4e01-98dc-d3c1f51bfbe5)
 
 
 # This Repository contains the following folders:
