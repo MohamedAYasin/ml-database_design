@@ -1,6 +1,16 @@
-# Task 4 - Create a Script to Fetch Data for Prediction
+# DATA FETCHING AND PREDICTION!
 
-## Overview
+![ai-robot-wallpaper-processing](https://github.com/user-attachments/assets/14b3946d-1425-4cd2-b226-2484c570177d)
+
+
+# This Repository contains the following folders:
+- [Fetch-data](https://github.com/fmhirwa/ml-database_design/blob/main/Models/fetch-data.py)
+- [Kickstart_Prediction](https://github.com/fmhirwa/ml-database_design/blob/main/Models/kickstart_prediction.ipynb)
+- [Kickstart Model PKL](https://github.com/fmhirwa/ml-database_design/blob/main/Models/kickstarter_model.pkl)
+- [Project CSV](https://github.com/fmhirwa/ml-database_design/blob/main/Models/kickstarter_projects_for_ml.csv)
+
+
+## Task Overview
 
 In this task, I implemented two main steps:
 
@@ -11,7 +21,7 @@ In this task, I implemented two main steps:
 
 To fetch the latest Kickstarter project data, I utilized the **Kickstarter API**, which provides various details about Kickstarter projects such as the project outcome (`successful`, `failed`, `canceled`), categories, and other related features.
 
-The script sends a request to the API and receives data in JSON format, which is then converted into a Pandas DataFrame for further processing. This data includes project-specific information such as the project outcome, categories, and other details necessary for prediction.
+The script sends a request to the API and receives data in JSON format, which is then converted into a Pandas DataFrame for further processing. This data includes project-specific information such as goals, categories, and other details necessary for prediction.
 
 ## 2. Model Prediction and Evaluation
 
@@ -24,7 +34,7 @@ Once the data is fetched and pre-processed, it is passed through a pre-trained m
 - **Evaluate Model Performance**: The model's accuracy is calculated, and the results are displayed with a classification report and a confusion matrix.
 
 ### Key Performance Metrics:
-- **Accuracy**: The model’s overall prediction accuracy is computed and displayed.
+- **Accuracy**: The model’s overall prediction accuracy is computed and displayed in the prediction notebook.
 - **Classification Report**: A report detailing precision, recall, and F1 score for each predicted class.
 - **Confusion Matrix**: A matrix that shows the true positive, false positive, true negative, and false negative predictions for a more detailed performance analysis.
 
@@ -35,13 +45,18 @@ This task demonstrates how to:
 2. Use the pre-trained model to make predictions about the success or failure of Kickstarter projects.
 3. Evaluate the model’s performance using various metrics.
 
-## Technologies Used:
-- **Python**: For scripting and data manipulation.
-- **Scikit-learn**: For the machine learning model and evaluation.
-- **Requests**: For fetching data from the Kickstarter API.
-- **Pandas**: For data processing and manipulation.
-- **Matplotlib/Seaborn**: For visualizing model evaluation results like confusion matrix.
+## What I Learned
 
-## Next Steps:
-- Improve data preprocessing to handle edge cases (e.g., missing or incomplete data).
-- Explore deploying the model for real-time predictions on new Kickstarter projects.
+During this task, I gained practical experience in several important aspects of machine learning and data science:
+   
+1. **Data Preprocessing**: I gained experience in cleaning and preparing data for machine learning models. This included handling categorical data, encoding it, and splitting the dataset into features and target variables.
+
+2. **Real-World Applications**: This task gave me insights into how machine learning models can be applied to real-world datasets like Kickstarter, and how predictions can be used to forecast outcomes of future projects.
+
+3. **Model Deployment**: I also gained exposure to saving and loading models for real-time predictions, which is a crucial part of deploying machine learning solutions.
+
+## Technologies Used:
+- **Python**
+- **ML Tools**: Scikit-learn, Pandas, Matplotlib, etc.
+
+                                ©2024 Mohamed Ahmed Yasin
