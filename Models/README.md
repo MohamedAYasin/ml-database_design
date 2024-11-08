@@ -14,7 +14,7 @@
 
 In this task, I implemented two main steps:
 
-1. **Fetching Data from Kickstarter API**: A script was created to fetch the latest Kickstarter project data from an API hosted at [Kickstarter API](https://kickstarter-api.onrender.com).
+1. **Fetching Data from Kickstarter API**: A script was created to fetch the latest Kickstarter project data from an API hosted at [Kickstarter API](https://kickstarter-api-3z5m.onrender.com).
 2. **Prediction and Model Evaluation**: Using a pre-trained model, I processed the fetched data to make predictions about the outcome of Kickstarter projects, evaluating the model's performance by calculating its accuracy.
 
 ## 1. Fetching Data for Prediction
@@ -22,6 +22,8 @@ In this task, I implemented two main steps:
 To fetch the latest Kickstarter project data, I utilized the **Kickstarter API**, which provides various details about Kickstarter projects such as the project outcome (`successful`, `failed`, `canceled`), categories, and other related features.
 
 The script sends a request to the API and receives data in JSON format, which is then converted into a Pandas DataFrame for further processing. This data includes project-specific information such as goals, categories, and other details necessary for prediction.
+
+**`https://kickstarter-api-3z5m.onrender.com/projects/latest`**
 
 ## 2. Model Prediction and Evaluation
 
