@@ -37,7 +37,15 @@ def serialize_project(project):
 async def root():
     return "Welcome to the Kickstarter Projects API. Use /docs endpoints to interact with the database."
 
-# Create CRUD endpoints
+# Fetch the latest project entry
+@app.get("/projects/latest")
+async def fetch_latest_project():
+    latest_project = collection.find_one(sort=[("_id", -1)])
+    if not latest_project:
+        raise HTTPException(status_code=404, detail="No projects found.")
+    return serialize_project(latest_project)
+
+# Create a project
 @app.post("/projects/")
 async def create_project(project: Project):
     if collection.find_one({"ID": project.ID}):
@@ -45,6 +53,7 @@ async def create_project(project: Project):
     result = collection.insert_one(project.dict())
     return {"message": "Project created successfully.", "project_id": str(result.inserted_id)}
 
+# Read a project by ID
 @app.get("/projects/{project_id}")
 async def read_project(project_id: int):
     project = collection.find_one({"ID": project_id})
@@ -52,6 +61,7 @@ async def read_project(project_id: int):
         raise HTTPException(status_code=404, detail="Project not found.")
     return serialize_project(project)
 
+# Update a project by ID
 @app.put("/projects/{project_id}")
 async def update_project(project_id: int, project: Project):
     if not collection.find_one({"ID": project_id}):
@@ -59,9 +69,11 @@ async def update_project(project_id: int, project: Project):
     collection.update_one({"ID": project_id}, {"$set": project.dict()})
     return {"message": "Project updated successfully."}
 
+# Delete a project by ID
 @app.delete("/projects/{project_id}")
 async def delete_project(project_id: int):
     result = collection.delete_one({"ID": project_id})
     if result.deleted_count == 0:
         raise HTTPException(status_code=404, detail="Project not found.")
     return {"message": "Project deleted successfully."}
+
