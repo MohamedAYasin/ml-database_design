@@ -1,6 +1,5 @@
 """This script Fetches the Latest Kickstarter Project entry from the database and makes Predictions with it"""
 
-import requests
 import joblib
 import pandas as pd
 import os
@@ -22,7 +21,9 @@ if latest_entry:
     print(f"Fetched Latest Entry: \n{latest_entry}")
 
     # Define the path to the model file (Update this path as needed)
-    model_path = 'kickstarter_model.pkl'  # Specify the path to your model here
+    script = os.path.dirname(os.path.abspath(__file__))
+    model_path = os.path.join(script, 'kickstarter_model.pkl')
+    # model_path = 'kickstarter_model.pkl'
 
     # Load the trained model
     try:
@@ -36,7 +37,7 @@ if latest_entry:
         data_df = pd.DataFrame([latest_entry])
 
         # Select and preprocess relevant features
-        expected_columns = ['goal', 'name', 'category', 'main_category', 'state', 'backers', 'pledged', 'usd_pledged']
+        expected_columns = ['ID', 'name', 'category', 'main_category', 'goal', 'state']
 
         # Ensure all expected columns are present
         for col in expected_columns:
@@ -57,5 +58,3 @@ if latest_entry:
                 data_df[feature] = 0
 
         data_df = data_df[model_features]
-
-        # Convert to input format
