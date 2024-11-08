@@ -16,6 +16,8 @@ Kickstarter projects range from viral successes to under-the-radar initiatives. 
 
 ### Task 1: Database Schema Design
 **Owner:** [Florent Magnifique Hirwa](https://github.com/fmhirwa/) 
+
+
 **Objective:** Architect a scalable, normalized database schema that captures the complexity of Kickstarter project data.
 
 **Approach:**
@@ -29,6 +31,8 @@ Kickstarter projects range from viral successes to under-the-radar initiatives. 
 
 ### Task 2: Database Implementation in MongoDB
 **Owner:** [Aime Magnifique NDAYISHIMIYE](https://github.com/AIMEMAGNI)
+
+
 **Objective:** Implement the database in MongoDB, leveraging its flexibility for storing and querying semi-structured data.
 
 **Approach:**
@@ -43,6 +47,8 @@ Kickstarter projects range from viral successes to under-the-radar initiatives. 
 
 ### Task 3: RESTful API Development with FastAPI
 **Owner:** [Pierrette Umutoniwase](https://github.com/Umutoniwasepie)  
+
+
 **Objective:** Build a RESTful API that enables CRUD operations on Kickstarter data, supporting both users and downstream applications.
 
 **Approach:**
@@ -61,6 +67,8 @@ Kickstarter projects range from viral successes to under-the-radar initiatives. 
 
 ### Task 4: Machine Learning for Outcome Prediction
 **Owner:** [Mohamed Ahmed Yasin](https://github.com/MohamedAYasin)  
+
+
 **Objective:** Use machine learning to predict Kickstarter project outcomes based on campaign characteristics.
 
 **Approach:**
