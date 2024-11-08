@@ -38,13 +38,6 @@ Once the data is fetched and pre-processed, it is passed through a pre-trained m
 - **Classification Report**: A report detailing precision, recall, and F1 score for each predicted class.
 - **Confusion Matrix**: A matrix that shows the true positive, false positive, true negative, and false negative predictions for a more detailed performance analysis.
 
-## Conclusion
-
-This task demonstrates how to:
-1. Fetch real-time Kickstarter project data using the Kickstarter API.
-2. Use the pre-trained model to make predictions about the success or failure of Kickstarter projects.
-3. Evaluate the model’s performance using various metrics.
-
 ## What I Learned
 
 During this task, I gained practical experience in several important aspects of machine learning and data science:
@@ -58,5 +51,12 @@ During this task, I gained practical experience in several important aspects of 
 ## Technologies Used:
 - **Python**
 - **ML Tools**: Scikit-learn, Pandas, Matplotlib, etc.
+
+## Conclusion
+
+This task demonstrates how to:
+1. Fetch real-time Kickstarter project data using the Kickstarter API.
+2. Use the pre-trained model to make predictions about the success or failure of Kickstarter projects.
+3. Evaluate the model’s performance using various metrics.
 
                                 ©2024 Mohamed Ahmed Yasin
