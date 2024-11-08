@@ -18,16 +18,16 @@ Kickstarter projects range from viral successes to under-the-radar initiatives. 
 **Owner:** [Florent Magnifique Hirwa](https://github.com/fmhirwa/) 
 
 
-**Objective:** Architect a scalable, normalized database schema that captures the complexity of Kickstarter project data.
+**Objective:** Created a normalized Database Schema for the following [Unstructured Dataset for Software Companies](https://docs.google.com/spreadsheets/d/16uXnRa3jRmT5KK4tQCkCabE9j3nKsLKX/edit?gid=334424638#gid=334424638).
 
 **Approach:**
-- Analyzed the Kickstarter dataset to determine relevant entities and relationships.
-- Applied normalization principles to reduce redundancy and optimize storage.
-- Constructed an Entity-Relationship Diagram (ERD) to visualize and validate the design.
+- Analyzed the unstructured dataset to identify core entities and their relationships.
+- Applied normalization techniques to minimize redundancy and improve data integrity.
+- Developed an Entity-Relationship Diagram (ERD) to illustrate and validate the schema design.
 
 **Deliverables:**
-- Fully normalized schema optimized for querying.
-- ERD, along with a data dictionary for easy reference.
+- A fully normalized database schema, optimized for efficient querying and storage.
+- ERD with a comprehensive data dictionary for streamlined reference and understanding.
 
 ### Task 2: Database Implementation in MongoDB
 **Owner:** [Aime Magnifique NDAYISHIMIYE](https://github.com/AIMEMAGNI)
